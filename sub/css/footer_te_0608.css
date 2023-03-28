@@ -1,0 +1,81 @@
+/*쌤이 해준 정리 - footer.css*/
+
+@charset "UTF-8";
+
+footer {
+    width: 100%;
+    background-color: lightgray;
+    padding: 60px 0;
+}
+
+footer a {
+    color: #333;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .sitemap {
+    width: 100%;
+    /*border-bottom: 1px solid #333;
+    padding: 0 0 60px;*/
+    margin: 0 0 60px;
+}
+
+footer .sitemap .mapbox {
+    float: left;
+    width: 16.66%;
+    /*outline: 2px solid red;*/
+}
+
+.sitemap .mapbox h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+    color: rgb(243, 130, 0);
+    margin: 0 0 20px;
+    font-weight: 600;
+}
+
+.sitemap .mapbox ul li {
+    line-height: 30px;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid #333;
+    padding: 30px 0 0;
+}
+
+footer .footer-bottom .info {
+    float: left;
+}
+
+.footer-bottom .info .links {
+    margin: 0 0 20px
+}
+
+.footer-bottom .info .links a ~ a {
+    border-left: 1px solid #333;
+    padding: 0 0 0 6px;
+}
+
+.footer-bottom .sns {
+    float: right;
+}
+
+.footer-bottom .sns a {
+    /*display: block;*/
+    width: 40px;
+    height: 40px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+.footer-bottom .sns a ~ a {
+    margin: 0 0 0 8px;
+}
+
+.footer-bottom .sns a img {
+    display: block;
+    width: 100%;
+}

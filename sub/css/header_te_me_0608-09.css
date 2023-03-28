@@ -1,0 +1,114 @@
+/*쌤이 해준 정리 - header.css*/
+
+@charset "UTF-8";
+
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+header .lnb {
+    width: 100%;
+    background-color: lightgray;
+    height: 40px;
+    line-height: 40px;
+}
+
+header .lnb ul {
+    float: right;
+}
+
+header .lnb ul li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+header .lnb ul li:last-child {
+    margin: 0;
+    /*background-color: rgb(47,28,17);*/
+    width: 60px;
+    /*text-indent: -9999px;*/
+    font-size: 0;
+    background: rgb(47, 28, 17) url(../img/ico_user_info_line.png) no-repeat center;
+}
+
+header .lnb ul li a {
+    color: #333;
+    display: block;
+}
+
+header .lnb ul li a:hover {
+    text-decoration: underline;
+    color: rgb(207, 102, 26);
+}
+
+header .header-bottom {
+    height: 100px;
+}
+
+header .header-bottom h1 {
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+header .header-bottom .logo a {
+    display: block;
+}
+
+header .header-bottom .logo a img {
+    height: 70px;
+    display: block;
+}
+
+header .header-bottom nav {
+    float: left;
+    margin: 0 0 0 100px;
+    /*outline: 2px solid pink;*/
+}
+
+.gnb ul li {
+    float: left;
+    line-height: 100px;
+    margin: 0 30px;
+    /*text-transform: uppercase;*/
+}
+
+.gnb ul li a {
+    text-transform: uppercase;
+    font-family: Arial;
+    color: rgb(47, 28, 17);
+    font-weight: 700;
+}
+
+.gnb ul li a:hover {
+    color: rgb(207, 102, 26);
+}
+
+.gnb ul .active a {
+    color: rgb(207, 102, 26);
+}
+
+/*form태그로 css 바꾸기*/
+header .searchbox {
+    float: right;
+    margin: 34px 0;
+}
+
+header .searchbox input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    /*display: none;*/
+}
+
+header .searchbox button {
+    border: 0;
+    background-color: #fff;
+}
